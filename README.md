@@ -1,0 +1,2 @@
+# Coding Problem
+This repo is created mainly for me to practice coding. I'm trying to implement the solutions to the problems using 3 languages: **Python**, **Java**, and **C**. The problems are from [Daily Coding Problem](https://www.dailycodingproblem.com).
