@@ -7,10 +7,11 @@ class Answ():
         for i in self.array:
             diff = self.targ - i
             if i in seen:
-                return (i, seen[i])
+                return True
             seen[diff] = i
+        return False
 
-answ = Answ([10, 15, 3, 7], 17)
+answ = Answ([10, 15, 3, 7], 15)
 sol = answ.checkArray()
 print(sol)
 
